@@ -1,0 +1,17 @@
+<p class="h4 mb-4 text-center" style="color: red;">DỮ LIỆU CHAT_ID TELEGRAM</p>
+<!-- SEARCH FORM-->
+<form id="search-form" class="form-inline" onsubmit="handleSearchForm(this)">
+  <div class="input-group">
+    <input type="text" class="form-control form-control-sm mb-2" id="searchText" name="searchText" placeholder="Gõ từ khóa..." required>
+    <button type="submit" class="btn btn-sm btn-primary mb-2">Tìm kiếm</button>
+  </div>
+</form>
+<!-- END - SEARCH FORM-->
+
+<div class="table-responsive">
+  <div id="dataTable">
+    <!-- The Data Table is inserted here by JavaScript -->
+  </div>
+</div>
+<button type="button" class="btn btn-primary btn-sm" onclick="getAllRecords()">Hiển Thị Tất Cả</button>
+
